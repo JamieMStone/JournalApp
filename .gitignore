@@ -1,0 +1,23 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+journal-web/node_modules
+journal-web/.pnp
+journal-web/.pnp.js
+
+# testing
+journal-web/coverage
+
+# production
+journal-web/build
+
+# misc
+journal-web/.DS_Store
+journal-web/.env.local
+journal-web/.env.development.local
+journal-web/.env.test.local
+journal-web/.env.production.local
+
+journal-web/npm-debug.log*
+journal-web/yarn-debug.log*
+journal-web/yarn-error.log*
