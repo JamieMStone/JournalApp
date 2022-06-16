@@ -3,7 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32421.90
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "journal-api", "journal-api\journal-api.csproj", "{3D94AD2A-F73D-499A-AED4-BB3EAAA5FC4C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "journal-api", "journal-api\journal-api.csproj", "{3D94AD2A-F73D-499A-AED4-BB3EAAA5FC4C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{27E2A90E-CDA8-4531-9E52-166EDBFE3BA0} = {27E2A90E-CDA8-4531-9E52-166EDBFE3BA0}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Database", "Database\Database.csproj", "{27E2A90E-CDA8-4531-9E52-166EDBFE3BA0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +20,10 @@ Global
 		{3D94AD2A-F73D-499A-AED4-BB3EAAA5FC4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3D94AD2A-F73D-499A-AED4-BB3EAAA5FC4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3D94AD2A-F73D-499A-AED4-BB3EAAA5FC4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27E2A90E-CDA8-4531-9E52-166EDBFE3BA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27E2A90E-CDA8-4531-9E52-166EDBFE3BA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27E2A90E-CDA8-4531-9E52-166EDBFE3BA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27E2A90E-CDA8-4531-9E52-166EDBFE3BA0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

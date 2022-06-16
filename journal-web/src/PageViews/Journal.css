@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+}
+.Journal {
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  position: fixed;
+  top: 50%;
+  border-top: 1px solid aqua;
+  border-bottom: 1px solid aqua;
+  margin-bottom: 30px;
+  font-size: 50px;
+}
+
+.Journal .links {
+  margin-left: auto;
+}
+.Journal a {
+  margin-left: 45px;
+  margin-right: 45px;
+  text-decoration: none;
+  padding: 6px;
+}
+.Journal a:hover {
+  color: green;
+}
